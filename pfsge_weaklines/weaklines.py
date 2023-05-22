@@ -13,7 +13,7 @@ def predict_L_OIII_4363 (logSFR, n, dust1, dust2, logMstar, TOIII, ne=100., incl
         dust1 (float): Dust parameter 1
         dust2 (float): Dust parameter 2
         logMstar (float): Logarithm of the stellar mass
-        TOIII (float): Electron temperature of OIII in K
+        TOIII (float): Electron temperature probed by O++ in K
         ne (float, optional): Electron density in cm^-3. Defaults to 100.
         include_extinction (bool, optional): Flag indicating whether to include extinction. Defaults to False.
 
@@ -47,8 +47,6 @@ def predict_L_NeIII3969 ( logSFR, n, dust1, dust2, logMstar, include_extinction=
         dust1 (float): Dust parameter 1
         dust2 (float): Dust parameter 2
         logMstar (float): Logarithm of the stellar mass
-        TOIII (float): Electron temperature of OIII in K
-        ne (float, optional): Electron density in cm^-3. Defaults to 100.
         include_extinction (bool, optional): Flag indicating whether to include extinction. Defaults to False.
 
     Returns:
